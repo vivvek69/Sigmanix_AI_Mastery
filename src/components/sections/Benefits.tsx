@@ -10,39 +10,39 @@ import {
 const benefits = [
   {
     icon: Brain,
-    title: "AI Fundamentals",
+    title: "Modern Web Development",
     description:
-      "Build a strong foundation in Artificial Intelligence and its real-world applications.",
+      "Learn JavaScript, React.js, Next.js, Node.js, and TypeScript through practical sessions and real-world examples.",
   },
   {
     icon: Sparkles,
-    title: "Generative AI",
+    title: "AI SDK Integration",
     description:
-      "Learn modern AI tools, prompt engineering, and practical GenAI workflows.",
+      "Understand how to integrate AI capabilities into modern applications using AI SDK tools and workflows.",
   },
   {
     icon: Wrench,
-    title: "Hands-On Learning",
+    title: "Hands-On Coding",
     description:
-      "Apply concepts through guided activities and practical demonstrations.",
+      "75% of the program focuses on practical implementation, coding exercises, and real-world application development.",
   },
   {
     icon: Award,
-    title: "Certificate",
+    title: "Certificate of Participation",
     description:
-      "Receive a certificate of participation upon successful completion.",
+      "Receive an official participation certificate upon successful completion of the workshop.",
   },
   {
     icon: Users,
-    title: "Networking",
+    title: "Industry Mentorship",
     description:
-      "Connect with students, developers, working professionals, and mentors.",
+      "Learn directly from industry professionals and receive guidance on modern development practices.",
   },
   {
     icon: Briefcase,
-    title: "Career Guidance",
+    title: "Career Growth",
     description:
-      "Explore AI career opportunities, industry trends, and future growth paths.",
+      "Explore opportunities in Full-Stack Development, AI-powered applications, and modern software engineering.",
   },
 ];
 
@@ -57,12 +57,13 @@ export default function Benefits() {
           </p>
 
           <h2 className="mt-4 text-5xl font-bold text-slate-900">
-            What You'll Gain From AI Mastery
+            What You'll Learn
           </h2>
 
-          <p className="mx-auto mt-4 max-w-2xl text-slate-600">
-            A practical learning experience designed for students,
-            developers, and working professionals.
+          <p className="mx-auto mt-4 max-w-3xl text-slate-600">
+            Learn modern web development technologies including React.js,
+            Next.js, Node.js, JavaScript, TypeScript, Vercel deployment,
+            and AI SDK integration through expert-led practical sessions.
           </p>
         </div>
 

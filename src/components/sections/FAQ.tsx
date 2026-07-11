@@ -7,17 +7,27 @@ const faqs = [
   {
     question: "Who can attend this workshop?",
     answer:
-      "The workshop is open to students, developers, working professionals, entrepreneurs, and anyone interested in Artificial Intelligence and Generative AI.",
+      "This workshop is designed for students, developers, working professionals, freelancers, and entrepreneurs who want to learn modern web development and AI-powered application development.",
   },
   {
-    question: "Do I need prior AI experience?",
+    question: "Do I need prior programming experience?",
     answer:
-      "No. The workshop is designed for both beginners and intermediate learners. Concepts will be explained from the fundamentals.",
+      "Basic programming knowledge is helpful but not mandatory. The workshop covers concepts in a structured manner suitable for both beginners and intermediate learners.",
+  },
+  {
+    question: "What technologies will be covered?",
+    answer:
+      "The workshop covers JavaScript, TypeScript, React.js, Next.js, Node.js, Vercel Deployment, and AI SDK Integration with practical demonstrations and real-world use cases.",
+  },
+  {
+    question: "Will there be hands-on coding sessions?",
+    answer:
+      "Yes. Approximately 75% of the workshop focuses on practical implementation, coding exercises, and real-world application development.",
   },
   {
     question: "Will I receive a certificate?",
     answer:
-      "Yes. All registered participants who attend the workshop will receive a Certificate of Participation.",
+      "Yes. All registered participants who attend the workshop will receive an official Certificate of Participation.",
   },
   {
     question: "Is lunch included?",
@@ -32,7 +42,7 @@ const faqs = [
   {
     question: "What should I bring to the workshop?",
     answer:
-      "Participants are encouraged to bring a laptop, charger, and a notebook to get the most out of the hands-on sessions.",
+      "Participants attending offline are encouraged to bring a laptop, charger, and notebook to fully participate in the hands-on sessions.",
   },
   {
     question: "Where is the workshop being conducted?",
@@ -40,9 +50,14 @@ const faqs = [
       "The offline workshop will be conducted at Sigmanix Tech Solutions, Kondapur, Hyderabad.",
   },
   {
+    question: "How much does the workshop cost?",
+    answer:
+      "Online participation costs ₹499 and Offline participation costs ₹1,999. The offline package includes lunch, refreshments, networking opportunities, and hands-on mentoring.",
+  },
+  {
     question: "How can I register?",
     answer:
-      "You can register using the Register Now button available on this website. Seats are limited and allocated on a first-come, first-served basis.",
+      "You can register using the Register Now button available on this website. Seats are limited and registrations are accepted on a first-come, first-served basis.",
   },
 ];
 
@@ -63,16 +78,15 @@ export default function FAQ() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-slate-600">
-            Everything you need to know before attending the AI Mastery Workshop.
+            Everything you need to know before attending the AI Mastery Program.
           </p>
         </div>
 
         <div className="mt-12 space-y-4">
-
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="overflow-hidden rounded-2xl border border-amber-100"
+              className="overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm"
             >
               <button
                 onClick={() =>
@@ -85,7 +99,7 @@ export default function FAQ() {
                 </span>
 
                 <ChevronDown
-                  className={`h-5 w-5 text-[#D4AF37] transition-transform ${
+                  className={`h-5 w-5 text-[#D4AF37] transition-transform duration-300 ${
                     openIndex === index ? "rotate-180" : ""
                   }`}
                 />
@@ -98,7 +112,6 @@ export default function FAQ() {
               )}
             </div>
           ))}
-
         </div>
 
       </div>

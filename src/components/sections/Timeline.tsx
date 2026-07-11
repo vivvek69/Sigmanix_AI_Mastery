@@ -1,19 +1,19 @@
 const schedule = [
   {
     time: "09:30 AM",
-    title: "Registration & Welcome",
+    title: "Welcomes",
   },
   {
     time: "10:00 AM",
-    title: "Introduction to Artificial Intelligence",
+    title: "JavaScript Fundamentals & Modern Development",
   },
   {
     time: "11:00 AM",
-    title: "Generative AI & Modern AI Tools",
+    title: "React.js & Next.js Development",
   },
   {
     time: "12:00 PM",
-    title: "Prompt Engineering Masterclass",
+    title: "Node.js, TypeScript & Backend Concepts",
   },
   {
     time: "01:00 PM",
@@ -21,25 +21,25 @@ const schedule = [
   },
   {
     time: "02:00 PM",
-    title: "Building AI Applications",
+    title: "Vercel Deployment & Production Workflows",
   },
   {
     time: "03:00 PM",
-    title: "AI Agents & Automation",
+    title: "AI SDK Integration & AI-Powered Applications",
   },
   {
     time: "04:00 PM",
-    title: "Hands-On Workshop Session",
+    title: "Hands-On Application Development Session",
   },
   {
     time: "05:00 PM",
-    title: "Career Guidance & Certification",
+    title: "Career Guidance, Q&A & Certification",
   },
 ];
 
 export default function Timeline() {
   return (
-    <section id="timeline" className="bg-white py-16">
+    <section id="timeline" className="bg-white py-8">
       <div className="mx-auto max-w-5xl px-6">
         
         <div className="text-center">
@@ -52,7 +52,7 @@ export default function Timeline() {
           </h2>
 
           <p className="mt-4 text-slate-600">
-            August 1, 2026 • Saturday
+            August 8, 2026 • Saturday
           </p>
 
           <p className="text-slate-500">

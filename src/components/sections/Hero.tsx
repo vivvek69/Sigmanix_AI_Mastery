@@ -17,13 +17,12 @@ export default function Hero() {
       {/* Gold Glow */}
       <div className="absolute left-1/2 top-40 h-96 w-96 -translate-x-1/2 rounded-full bg-amber-100 blur-3xl opacity-60" />
 
-<div className="relative z-10 mx-auto flex min-h-[60vh] max-w-7xl items-center justify-center px-6 pt-36">
-
+      <div className="relative z-10 mx-auto flex min-h-[60vh] max-w-7xl items-center justify-center px-6 pt-36">
         <div className="max-w-5xl text-center">
 
           {/* Badge */}
           <div className="inline-flex rounded-full border border-amber-200 bg-white px-5 py-2 text-sm font-medium text-[#B8860B]">
-            AI Mastery Workshop 2026
+            AI Mastery Program 2026
           </div>
 
           {/* Heading */}
@@ -33,27 +32,39 @@ export default function Hero() {
 
           {/* Sub Heading */}
           <h2 className="mt-6 text-2xl font-semibold leading-tight text-slate-700 md:text-5xl">
-            Master Artificial Intelligence,
+            Modern Web Development
             <br />
-            Generative AI & AI Agents
+            & AI-Powered Applications
           </h2>
 
           {/* Description */}
-          <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-slate-600">
-            A professional workshop designed to provide practical AI
-            knowledge through expert-led sessions, industry-focused
-            learning, real-world applications, and hands-on guidance.
+          <p className="mx-auto mt-8 max-w-4xl text-lg leading-8 text-slate-600">
+            Master React.js, Next.js, JavaScript, TypeScript, Node.js,
+            Vercel Deployment, and AI SDK Integration through practical,
+            industry-focused sessions designed for working professionals.
           </p>
+
+          {/* Event Info */}
+          <div className="mt-8 flex flex-wrap justify-center gap-6 text-slate-600">
+            <span>📅 August 8, 2026</span>
+            <span>🕘 9:30 AM – 6:00 PM</span>
+            <span>📍 Hyderabad</span>
+            <span>🍽 Lunch Included</span>
+          </div>
 
           {/* Tags */}
           <div className="mt-10 flex flex-wrap justify-center gap-3">
 
             <div className="rounded-full border border-amber-200 bg-white px-4 py-2 text-sm font-medium text-[#B8860B]">
-              Professional Workshop
+              React.js & Next.js
             </div>
 
             <div className="rounded-full border border-amber-200 bg-white px-4 py-2 text-sm font-medium text-[#B8860B]">
-              Industry Focused
+              Node.js & TypeScript
+            </div>
+
+            <div className="rounded-full border border-amber-200 bg-white px-4 py-2 text-sm font-medium text-[#B8860B]">
+              AI SDK Integration
             </div>
 
             <div className="rounded-full border border-amber-200 bg-white px-4 py-2 text-sm font-medium text-[#B8860B]">
@@ -66,33 +77,36 @@ export default function Hero() {
           <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
 
             <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdqw19ooQG5MXKROVZYHP9TL80V8pWdhySeUm15edz00aCMHA/viewform"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <Button
-    size="lg"
-    className="h-14 bg-[#D4AF37] px-8 text-white hover:bg-[#B8860B]"
-  >
-    Register Now
-    <ArrowRight className="ml-2 h-4 w-4" />
-  </Button>
-</a>
-
-            <Button
-              size="lg"
-              variant="outline"
-              className="h-14 border-[#D4AF37] px-8 text-[#B8860B] hover:bg-amber-50"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdqw19ooQG5MXKROVZYHP9TL80V8pWdhySeUm15edz00aCMHA/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Join WhatsApp Community
-            </Button>
+              <Button
+                size="lg"
+                className="h-14 bg-[#D4AF37] px-8 text-white hover:bg-[#B8860B]"
+              >
+                Register for WorkShop
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </a>
+
+            <a
+              href="https://chat.whatsapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                size="lg"
+                variant="outline"
+                className="h-14 border-[#D4AF37] px-8 text-[#B8860B] hover:bg-amber-50"
+              >
+                Join WhatsApp Community
+              </Button>
+            </a>
 
           </div>
 
-          
-
         </div>
-
       </div>
     </section>
   );

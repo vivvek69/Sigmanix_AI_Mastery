@@ -6,33 +6,30 @@ export default function CTA() {
     <section className="bg-white py-20">
       <div className="mx-auto max-w-5xl px-6 text-center">
         <p className="text-sm uppercase tracking-[0.4em] text-[#D4AF37]">
-          START YOUR AI JOURNEY
+          BUILD • LEARN • GROW
         </p>
 
         <h2 className="mt-5 text-5xl font-bold leading-tight text-slate-900 md:text-7xl">
-          The Future Belongs To
+          Accelerate Your
           <span className="block text-[#D4AF37]">
-            AI Builders
+            Tech Career
           </span>
         </h2>
 
         <p className="mx-auto mt-8 max-w-3xl text-xl leading-9 text-slate-600">
-          Learn the skills that are transforming industries worldwide.
-          Gain practical experience in
+          Master modern development technologies including
           <span className="font-semibold text-slate-900">
-            {" "}Artificial Intelligence,
-            Generative AI,
-            Prompt Engineering,
-            AI Agents
+            {" "}React.js, Next.js, JavaScript, TypeScript,
+            Node.js, Vercel Deployment, and AI SDK Integration
           </span>
-          {" "}and real-world applications through expert-led sessions.
+          {" "}through expert-led practical sessions designed for
+          working professionals.
         </p>
 
         {/* Highlight Quote */}
         <div className="mx-auto mt-10 max-w-3xl rounded-3xl border border-amber-200 bg-amber-50 px-8 py-6">
           <p className="text-2xl font-medium italic text-slate-800">
-            "AI won't replace people.
-            People who understand AI will replace those who don't."
+            "Learn. Build. Innovate. Transform your ideas into real-world applications."
           </p>
         </div>
 
@@ -53,7 +50,7 @@ export default function CTA() {
           </a>
 
           <p className="mt-4 text-sm text-slate-500">
-            Limited seats available • Certificate Included
+            August 8, 2026 • Limited Seats • Certificate Included • Lunch Included
           </p>
         </div>
       </div>
