@@ -19,17 +19,23 @@ const navItems = [
 export default function Navbar() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-slate-200 bg-white/95 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:h-20 lg:px-10">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:px-6 lg:h-20 lg:px-10">
 
         {/* Logo */}
         <a href="#" className="flex items-center">
-          <h1 className="text-2xl font-bold tracking-tight text-slate-900 md:text-3xl">
-            AI Mastery
-          </h1>
+          <div>
+            <h1 className="text-lg font-bold leading-tight text-slate-900 md:text-2xl">
+              AI Mastery
+            </h1>
+
+            <p className="text-xs font-medium text-[#D4AF37] md:text-sm">
+              for Professionals
+            </p>
+          </div>
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden items-center gap-12 lg:flex">
+        <nav className="hidden items-center gap-10 lg:flex">
           {navItems.map((item) => (
             <a
               key={item.name}
@@ -48,7 +54,7 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button className="h-12 rounded-xl bg-[#D4AF37] px-8 text-base font-medium text-white hover:bg-[#B8860B]">
+            <Button className="h-11 rounded-xl bg-[#D4AF37] px-8 text-white hover:bg-[#B8860B]">
               Register Now
             </Button>
           </a>
@@ -64,11 +70,15 @@ export default function Navbar() {
             <SheetContent side="right" className="w-[280px] p-0">
               <div className="flex h-full flex-col">
 
-                {/* Header */}
+                {/* Mobile Header */}
                 <div className="border-b px-6 py-5">
-                  <h2 className="text-xl font-bold text-slate-900">
+                  <h2 className="text-lg font-bold leading-tight text-slate-900">
                     AI Mastery
                   </h2>
+
+                  <p className="text-sm font-medium text-[#D4AF37]">
+                    for Professionals
+                  </p>
                 </div>
 
                 {/* Navigation */}

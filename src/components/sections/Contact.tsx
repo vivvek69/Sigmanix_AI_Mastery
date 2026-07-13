@@ -61,6 +61,11 @@ export default function Contact() {
                 <span>hr@sigmanixtech.com</span>
               </div>
 
+              <div className="flex items-center gap-3">
+                <Globe className="h-5 w-5 text-[#D4AF37]" />
+                <span>www.sigmanixtech.com</span>
+              </div>
+
             </div>
 
           </div>
@@ -87,13 +92,18 @@ export default function Contact() {
             <div className="mt-8 space-y-4">
 
               <div className="flex items-center gap-3">
+                <Phone className="h-5 w-5 text-[#D4AF37]" />
+                <span>+91 7032824755</span>
+              </div>
+
+              <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-[#D4AF37]" />
                 <span>beaconsaifoundry@gmail.com</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <Globe className="h-5 w-5 text-[#D4AF37]" />
-                <span>beacont.ai</span>
+                <span>www.beacont.ai</span>
               </div>
 
             </div>
@@ -103,7 +113,7 @@ export default function Contact() {
         </div>
 
         <div className="mt-12 border-t border-amber-100 pt-6 text-center text-sm text-slate-500">
-          © 2026 AI Mastery Workshop. All Rights Reserved.
+          © 2026 AI Mastery Workshop • Organized by Sigmanix Tech Solutions & Beacon Technologies
         </div>
 
       </div>

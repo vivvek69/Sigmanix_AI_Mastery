@@ -59,12 +59,6 @@ export default function Benefits() {
           <h2 className="mt-4 text-5xl font-bold text-slate-900">
             What You'll Learn
           </h2>
-
-          <p className="mx-auto mt-4 max-w-3xl text-slate-600">
-            Learn modern web development technologies including React.js,
-            Next.js, Node.js, JavaScript, TypeScript, Vercel deployment,
-            and AI SDK integration through expert-led practical sessions.
-          </p>
         </div>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
