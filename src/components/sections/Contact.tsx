@@ -98,7 +98,7 @@ export default function Contact() {
 
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-[#D4AF37]" />
-                <span>beaconsaifoundry@gmail.com</span>
+                <span>srinirao@beacont.ai</span>
               </div>
 
               <div className="flex items-center gap-3">

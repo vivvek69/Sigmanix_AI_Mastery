@@ -7,7 +7,7 @@ const faqs = [
   {
     question: "Who can attend this workshop?",
     answer:
-      "This workshop is designed for developers, working professionals,  and entrepreneurs who want to learn modern web development and AI-powered application development.",
+      "This workshop is designed for  working professionals,software developers, and entrepreneurs who want to learn modern web development and AI-powered application development.",
   },
   {
     question: "Do I need prior programming experience?",
@@ -17,7 +17,7 @@ const faqs = [
   {
     question: "What technologies will be covered?",
     answer:
-      "The workshop covers JavaScript, TypeScript, React.js, Next.js, Node.js, Vercel Deployment, and AI SDK  with practical demonstrations and real-world use cases.",
+      "The workshop covers , React.js, Next.js,JavaScript, TypeScript Node.js, Vercel Deployment, and AI SDK  with practical demonstrations and real-world use cases.",
   },
   {
     question: "Will there be hands-on coding sessions?",
@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "Will I receive a certificate?",
     answer:
-      "Yes. All registered participants who attend the workshop will receive an official Certificate of Participation.",
+      "Yes. All registered Offline and Online participants who attend the workshop will receive an official Certificate of Participation.",
   },
   {
     question: "Is lunch included?",
@@ -42,12 +42,12 @@ const faqs = [
   {
     question: "What should I bring to the workshop?",
     answer:
-      "Participants attending offline are encouraged to bring a laptop(not mandatory), charger, and notebook to fully participate in the hands-on sessions.",
+      "Participants attending offline and Online are encouraged to bring a laptop(not mandatory), charger, and notebook to fully participate in the hands-on sessions.",
   },
   {
     question: "Where is the workshop being conducted?",
     answer:
-      "The offline workshop will be conducted at Sigmanix Tech Solutions, Kondapur, Hyderabad.",
+      "The offline workshop will be conducted at Sigmanix Tech Solutions,Sigma Hub, Kondapur, Hyderabad.",
   },
   {
     question: "How much does the workshop cost?",

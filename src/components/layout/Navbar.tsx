@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/sheet";
 
 const navItems = [
-  { name: "Timeline", href: "#timeline" },
+  { name: "Topics", href: "#timeline" },
   { name: "Location", href: "#venue" },
   { name: "Poster", href: "#poster" },
   { name: "Contact", href: "#contact" },
@@ -29,7 +29,7 @@ export default function Navbar() {
             </h1>
 
             <p className="text-xs font-medium text-[#D4AF37] md:text-sm">
-              for Professionals
+              for Working Professionals
             </p>
           </div>
         </a>

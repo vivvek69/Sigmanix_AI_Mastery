@@ -20,11 +20,7 @@ export default function CTA() {
         </h2>
 
         {/* Description */}
-        <p className="mx-auto mt-8 max-w-4xl text-xl leading-9 text-slate-600">
-          Learn JavaScript, React.js, Next.js, Node.js, TypeScript,
-          Vercel Deployment, and AI SDK integration through hands-on
-          implementation, real-world projects, and industry-focused guidance.
-        </p>
+    
 
         {/* Workshop Highlights */}
         <div className="mx-auto mt-12 grid max-w-4xl gap-4 md:grid-cols-4">
@@ -82,7 +78,7 @@ export default function CTA() {
               size="lg"
               className="h-16 rounded-full bg-[#D4AF37] px-12 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-[#B8860B]"
             >
-              Reserve Your Seat
+             Register Now
               <ArrowRight className="ml-3 h-5 w-5" />
             </Button>
           </a>

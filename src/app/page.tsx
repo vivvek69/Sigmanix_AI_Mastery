@@ -17,7 +17,6 @@ export default function Home() {
   <Organizer />
   <Timeline />
   <WorkshopModes />
-  <Benefits />
   <CTA />
   <Venue />
   <Poster />

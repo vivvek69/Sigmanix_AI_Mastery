@@ -2,61 +2,75 @@ import { MapPin, Navigation } from "lucide-react";
 
 export default function Venue() {
   return (
-    <section id="venue" className="bg-white py-8">
-      <div className="mx-auto max-w-5xl px-6">
+    <section
+      id="venue"
+      className="bg-gradient-to-b from-white to-amber-50 py-20"
+    >
+      <div className="mx-auto max-w-6xl px-6">
 
+        {/* Header */}
         <div className="text-center">
-          <p className="text-sm uppercase tracking-[0.35em] text-[#D4AF37]">
+          <p className="text-sm font-semibold uppercase tracking-[0.4em] text-[#D4AF37]">
             Event Venue
           </p>
 
-          <h2 className="mt-4 text-5xl font-bold text-slate-900">
+          <h2 className="mt-4 text-4xl font-bold text-slate-900 md:text-5xl">
             Workshop Location
           </h2>
 
-          <p className="mt-4 text-slate-600">
-            Join us for a full-day immersive AI learning experience.
+          <p className="mx-auto mt-6 max-w-3xl text-lg text-slate-600">
+            Join us in Hyderabad for a full-day immersive learning experience
+            covering modern web development and AI-powered applications.
           </p>
         </div>
 
-       <div className="mt-12 rounded-3xl border border-amber-100 bg-amber-50/20 p-12">
+        {/* Venue Card */}
+        <div className="mt-16 rounded-3xl border border-amber-200 bg-white p-10 shadow-sm">
 
-  <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col items-center text-center">
 
-    <div className="rounded-full border border-[#D4AF37] p-4">
-      <MapPin className="h-6 w-6 text-[#D4AF37]" />
-    </div>
+            <div className="flex h-20 w-20 items-center justify-center rounded-full bg-[#D4AF37]/10">
+              <MapPin className="h-10 w-10 text-[#D4AF37]" />
+            </div>
 
-    <h3 className="mt-6 text-3xl font-semibold text-slate-900">
-      Sigmanix Tech Solutions
-    </h3>
+            <h3 className="mt-8 text-3xl font-bold text-slate-900">
+              Sigmanix Tech Solutions Private Limited
+            </h3>
 
-    <p className="mt-6 max-w-2xl leading-9 text-slate-600">
-      Plot No. 8A, Survey No. 184P,
-      <br />
-      Sai Prithvi Enclave, Kondapur,
-      <br />
-      Serilingampally,
-      <br />
-      K. V. Rangareddy – 500084
-    </p>
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
+              5A Sigma Hub Building,
+              <br />
+              Plot No. 8A, Survey No. 184P,
+              <br />
+              Sai Prithvi Enclave, Kondapur,
+              <br />
+              Serilingampalle (M),
+              <br />
+              Hyderabad, Telangana – 500084
+            </p>
 
-    <a
-      href="https://maps.app.goo.gl/BP4PoHQNQfAkuHvk8?g_st=ac"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="mt-8 inline-flex items-center gap-2 rounded-full border border-[#D4AF37] px-6 py-3 text-sm font-medium text-[#B8860B] hover:bg-amber-50"
-    >
-      <Navigation className="h-4 w-4" />
-      Get Directions
-    </a>
+            {/* Venue Highlights */}
+            <div className="mt-8 flex flex-wrap justify-center gap-3">
 
-  </div>
 
-</div>
+            </div>
+
+            {/* Map Button */}
+            <a
+              href="https://maps.app.goo.gl/BP4PoHQNQfAkuHvk8?g_st=ac"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-10 inline-flex items-center gap-3 rounded-full bg-[#D4AF37] px-8 py-4 text-sm font-semibold text-white shadow-md transition-all duration-300 hover:bg-[#B8860B]"
+            >
+              <Navigation className="h-5 w-5" />
+              Get Direction
+            </a>
+
+          </div>
 
         </div>
 
+      </div>
     </section>
   );
 }

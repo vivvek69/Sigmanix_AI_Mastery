@@ -1,13 +1,54 @@
 const topics = [
-  "JavaScript Fundamentals",
-  "React.js Development",
-  "Next.js Framework",
-  "Node.js Backend Development",
-  "TypeScript for Scalable Applications",
-  "Vercel AI SDK",
-  "Building AI-Powered Applications",
-  "Real-World Project Implementation",
-  "Career Guidance & Certification",
+  {
+    title: "React.js Development",
+    description:
+      "Build modern, reusable user interfaces using component-based architecture and industry-standard development practices.",
+  },
+  {
+    title: "Next.js Framework",
+    description:
+      "Learn routing, layouts, server-side rendering, and performance optimization for production-ready web applications.",
+  },
+  {
+    title: "JavaScript Fundamentals",
+    description:
+      "Master the core concepts of JavaScript including functions, objects, arrays, ES6 features, and asynchronous programming.",
+  },
+  {
+    title: "TypeScript for Scalable Applications",
+    description:
+      "Develop type-safe applications that improve code quality, maintainability, and team collaboration.",
+  },
+  {
+    title: "Node.js Backend Development",
+    description:
+      "Understand backend architecture, REST APIs, server-side logic, and application integration using Node.js.",
+  },
+  {
+    title: "Vercel & AI SDK",
+    description:
+      "Deploy applications seamlessly and integrate AI-powered features using the Vercel platform and AI SDK.",
+  },
+  {
+    title: "Building AI-Powered Applications",
+    description:
+      "Create intelligent applications using modern AI workflows, prompt engineering, and real-world automation techniques.",
+  },
+  {
+    title: "Real-World Project Implementation",
+    description:
+      "Apply your learning by building a complete project that follows industry development workflows and best practices.",
+  },
+  {
+    title: "Career Guidance & Certification",
+    description:
+      "Gain insights into career opportunities, portfolio development, interview preparation, and industry expectations.",
+  },
+  {
+    title: "Hands-On Coding & Practical Implementation",
+    description:
+      "75% of the workshop focuses on practical coding, implementation exercises, debugging, and real-world application development.",
+  },
 ];
 
 export default function Timeline() {
@@ -18,7 +59,7 @@ export default function Timeline() {
     >
       <div className="mx-auto max-w-7xl px-6">
 
-        {/* Section Header */}
+        {/* Header */}
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.4em] text-[#D4AF37]">
             Workshop Curriculum
@@ -35,8 +76,8 @@ export default function Timeline() {
           </p>
         </div>
 
-        {/* Curriculum Cards */}
-        <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-2">
+        {/* Curriculum Grid */}
+        <div className="mt-16 grid gap-6 md:grid-cols-2">
 
           {topics.map((topic, index) => (
             <div
@@ -53,12 +94,11 @@ export default function Timeline() {
                 {/* Content */}
                 <div>
                   <h3 className="text-xl font-semibold text-slate-900">
-                    {topic}
+                    {topic.title}
                   </h3>
 
-                  <p className="mt-2 text-sm leading-relaxed text-slate-600">
-                    Hands-on learning, real-world examples, practical
-                    implementation, and industry best practices.
+                  <p className="mt-3 text-sm leading-relaxed text-slate-600">
+                    {topic.description}
                   </p>
                 </div>
 
@@ -68,20 +108,38 @@ export default function Timeline() {
 
         </div>
 
-        {/* Bottom Highlight */}
-        <div className="mt-16 rounded-3xl border border-amber-200 bg-white p-8 text-center shadow-sm">
+        {/* Workshop Highlight */}
+        <div className="mt-16 rounded-3xl border border-amber-200 bg-white p-10 text-center shadow-sm">
 
-          <h3 className="text-2xl font-bold text-slate-900">
+          <h3 className="text-3xl font-bold text-slate-900">
             Full-Day Intensive Workshop
           </h3>
 
-          <p className="mt-4 text-slate-600">
+          <p className="mt-4 text-lg text-slate-600">
             August 8, 2026 • Saturday
           </p>
 
           <p className="mt-2 text-slate-600">
-            9:30 AM – 6:00 PM • Lunch Included • Certificate Included
+            9:30 AM – 6:00 PM
           </p>
+
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <span className="rounded-full bg-amber-100 px-4 py-2 text-sm font-medium text-[#B8860B]">
+              Lunch Included
+            </span>
+
+            <span className="rounded-full bg-amber-100 px-4 py-2 text-sm font-medium text-[#B8860B]">
+              Certificate Included
+            </span>
+
+            <span className="rounded-full bg-amber-100 px-4 py-2 text-sm font-medium text-[#B8860B]">
+              Hands-On Learning
+            </span>
+
+            <span className="rounded-full bg-amber-100 px-4 py-2 text-sm font-medium text-[#B8860B]">
+              Real-World Project
+            </span>
+          </div>
 
         </div>
 

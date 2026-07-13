@@ -29,7 +29,7 @@ export default function Hero() {
           <h1 className="mt-8 text-5xl font-bold tracking-tight text-slate-900 md:text-7xl">
             AI Mastery
             <span className="block text-[#D4AF37]">
-              for Professionals
+              for Working Professionals
             </span>
           </h1>
 
@@ -60,9 +60,6 @@ export default function Hero() {
           {/* Technologies */}
           <div className="mt-10 flex flex-wrap justify-center gap-3">
 
-            <div className="rounded-full border border-amber-200 bg-white px-4 py-2 text-sm font-medium text-[#B8860B]">
-              JavaScript
-            </div>
 
             <div className="rounded-full border border-amber-200 bg-white px-4 py-2 text-sm font-medium text-[#B8860B]">
               React.js
@@ -71,14 +68,16 @@ export default function Hero() {
             <div className="rounded-full border border-amber-200 bg-white px-4 py-2 text-sm font-medium text-[#B8860B]">
               Next.js
             </div>
-
+            <div className="rounded-full border border-amber-200 bg-white px-4 py-2 text-sm font-medium text-[#B8860B]">
+              JavaScript
+            </div>
+              <div className="rounded-full border border-amber-200 bg-white px-4 py-2 text-sm font-medium text-[#B8860B]">
+              TypeScript
+            </div>
             <div className="rounded-full border border-amber-200 bg-white px-4 py-2 text-sm font-medium text-[#B8860B]">
               Node.js
             </div>
 
-            <div className="rounded-full border border-amber-200 bg-white px-4 py-2 text-sm font-medium text-[#B8860B]">
-              TypeScript
-            </div>
 
             <div className="rounded-full border border-amber-200 bg-white px-4 py-2 text-sm font-medium text-[#B8860B]">
               Vercel AI SDK
@@ -98,7 +97,7 @@ export default function Hero() {
                 size="lg"
                 className="h-14 bg-[#D4AF37] px-8 text-white hover:bg-[#B8860B]"
               >
-                Reserve Your Seat
+                Register Now
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </a>
