@@ -55,7 +55,7 @@ export default function Timeline() {
   return (
     <section
       id="timeline"
-      className="bg-gradient-to-b from-white to-amber-50 py-20"
+      className="bg-gradient-to-b from-white to-amber-50 py-10"
     >
       <div className="mx-auto max-w-7xl px-6">
 

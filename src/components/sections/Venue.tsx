@@ -4,7 +4,7 @@ export default function Venue() {
   return (
     <section
       id="venue"
-      className="bg-gradient-to-b from-white to-amber-50 py-20"
+      className="bg-gradient-to-b from-white to-amber-50 py-14"
     >
       <div className="mx-auto max-w-6xl px-6">
 

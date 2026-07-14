@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "AI Mastery Workshop",
-  description: "Ai MAstery Workshop by the SIgmanix tech and Beacon Technologies ",
+  description: "Ai Mastery Workshop by the SIgmanix tech and Beacon Technologies ",
+  icons: {
+    icon: "/globe.png",
+  },
 };
 
 export default function RootLayout({

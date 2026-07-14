@@ -9,12 +9,14 @@ import FAQ from "@/components/sections/FAQ";
 import Poster from "@/components/sections/Poster";
 import Contact from "@/components/sections/Contact";
 import CTA from "@/components/sections/CTA";
+import CommunityPartner from "@/components/sections/CommunityPartner";
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
   <Organizer />
+  <CommunityPartner/>
   <Timeline />
   <WorkshopModes />
   <CTA />
