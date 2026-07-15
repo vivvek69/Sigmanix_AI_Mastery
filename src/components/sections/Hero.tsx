@@ -103,7 +103,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://chat.whatsapp.com/"
+              href="https://chat.whatsapp.com/Lnu69TqQ0Jw87ovfsxYnS2"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -14,14 +14,6 @@ export default function CommunityPartner() {
             Community Partner
           </p>
 
-          <h2 className="mt-4 text-4xl font-bold text-slate-900 md:text-5xl">
-            Supported By
-          </h2>
-
-          <p className="mx-auto mt-6 max-w-3xl text-lg text-slate-600">
-            Proudly supported by one of Hyderabad's growing developer
-            communities dedicated to learning, collaboration, and innovation.
-          </p>
         </div>
 
         {/* Logo */}
