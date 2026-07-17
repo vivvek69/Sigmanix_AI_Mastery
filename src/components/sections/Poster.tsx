@@ -16,7 +16,7 @@ export default function Poster() {
         </p>
 
        <a
-  href="/posters/ps1.jpeg"
+  href="/posters/Sigmanix_beacon_Ai_mastery_poster.jpeg"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-flex items-center rounded-full border border-[#D4AF37] px-6 py-3 text-[#B8860B] hover:bg-amber-50"
